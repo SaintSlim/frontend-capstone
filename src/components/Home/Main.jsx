@@ -1,6 +1,7 @@
 import { Box } from '@chakra-ui/react'
 import React from 'react'
 import Banner from '../Banner'
+import Description from './Description'
 import Specials from './Specials'
 import Testimonials from './Testimonials'
 
@@ -11,6 +12,7 @@ function Main() {
             <Banner/>
             <Specials />
             <Testimonials />
+            <Description />
         </Box>
     </main>
   )

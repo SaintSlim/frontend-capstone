@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Heading, Image, Spacer, Text } from '@chakra-ui/react'
+import { Box, Button, Flex, Heading, Image, Link, Spacer, Text } from '@chakra-ui/react'
 import React from 'react'
 
 function Banner() {
@@ -9,7 +9,7 @@ function Banner() {
                 <Heading as={"h1"} color={"#f4ce14"} size={"2xl"}>Little Lemon</Heading>
                 <Heading as={"h2"} color={"white"} size={"xl"} textAlign={"left"}>Chicago</Heading>
                 <Text fontSize={"xl"} color={"white"}> We are a familiy owned Meditteranean restaurant, focused on traditional recipes served with a modern twist</Text>
-                <Button width={"50%"} borderRadius={16} alignSelf={'center'} bg={"#f4ce14"}>Reserve a table</Button>
+                <a href='/booking'><Button width={"50%"} borderRadius={16} alignSelf={'center'} bg={"#f4ce14"}>Reserve a table</Button></a>
             </Box>
             <Spacer/>
             <Box maxW={"-moz-fit-content"} display={'flex'}>
