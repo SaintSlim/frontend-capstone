@@ -37,13 +37,13 @@ function Specials() {
                     }
                 />
                 <SpecialsItem
-                    src={require("../../assets/greek salad.jpg")}
-                    title={'Greek Salad'}
-                    price={'$12.99'}
+                    src={require("../../assets/lemon dessert.jpg")}
+                    title={'Lemon Dessert'}
+                    price={'$5.99'}
                     description={
-                        `The famous greek salad of crispy lettuce, peppers, olives
-                        and our Chicago style feta cheese, garnised with cruchy garlic
-                        and rosemary croutons.
+                        `This comes straight from grand,a's recipe book,
+                        every last ingredient has been sourced and is authentic as
+                        can be imagined
                         `
                     }
                 />
